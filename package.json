@@ -1,23 +1,25 @@
 {
   "name": "vite-sse-mock",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "",
   "main": "./index.js",
   "scripts": {
-    "build": "tsc --project tsconfig.build.json",
-    "clean": "rm -rf ./lib/",
-    "cm": "cz",
+    "dev": "tsc -w -p .",
+    "build": "rm -rf lib && tsc -p .",
     "typecheck": "tsc --noEmit"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryansonshine/typescript-npm-package-template.git"
+    "url": "git+https://github.com/orozot/vite-sse-mock.git"
   },
   "license": "MIT",
   "author": {
     "name": "orozot",
-    "email": "",
-    "url": ""
+    "email": "renzhitong12@outlook.com",
+    "url": "https://github.com/orozot"
   },
   "engines": {
     "node": ">=12.0"
