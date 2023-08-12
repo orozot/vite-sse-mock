@@ -4,7 +4,7 @@
 
 ```javascript
 // vite.config.ts
-import VitePluginSseMock from '${plugin_path}';
+import VitePluginSseMock from 'vite-sse-mock';
 
 ...
 plugins: [
