@@ -1,8 +1,8 @@
 {
-  "name": "typescript-npm-package-template",
+  "name": "vite-sse-mock",
   "version": "0.0.0-development",
-  "description": "A template for creating npm packages using TypeScript and VSCode",
-  "main": "./lib/index.js",
+  "description": "",
+  "main": "./index.js",
   "files": [
     "lib/**/*"
   ],
@@ -22,8 +22,8 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Ryan Sonshine",
-    "email": "ryansonshine@users.noreply.github.com",
+    "name": "orozot",
+    "email": "",
     "url": "https://github.com/ryansonshine"
   },
   "engines": {
@@ -40,24 +40,11 @@
   },
   "homepage": "https://github.com/orozot/vite-sse-mock",
   "devDependencies": {
-    "@ryansonshine/commitizen": "^4.2.8",
-    "@ryansonshine/cz-conventional-changelog": "^3.3.4",
-    "@types/node": "^12.20.11",
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0",
-    "conventional-changelog-conventionalcommits": "^5.0.0",
-    "eslint": "^7.25.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^13.2.1",
-    "prettier": "^2.2.1",
-    "ts-jest": "^27.0.5",
-    "ts-node": "^10.2.1",
-    "typescript": "^4.2.4"
+    "@types/node": "^15.12.4",
+    "typescript": "^4.3.4",
+    "vite": "^4.4.9"
   },
   "lint-staged": {
     "*.ts": "eslint --cache --cache-location .eslintcache --fix"
-  },
+  }
 }
